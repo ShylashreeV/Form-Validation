@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <form id="create-account-form">
+        <div class="title">
+            <h2>CREATE ACCOUNT</h2>
+        </div>
+        <!--USERBNAME-->
+        <div class="input-group">
+            <label for="username">Name</label>
+            <input type="text" 
+            id="username" placeholder="Enter Your Name" name="username">
+            <i class="fas fa-circle-check"></i>
+            <i class="fas fa-circle-exclamation"></i>
+            <p>Error message</p>
+        </div>
+        <!--Email-->
+        <div class="input-group">
+            <label for="email">Name</label>
+            <input type="text" 
+            id="email" placeholder="Enter Your email" name="email">
+            <i class="fas fa-circle-check"></i>
+            <i class="fas fa-circle-exclamation"></i>
+            <p>Error message</p>
+        </div>
+        <!--Password-->
+        <div class="input-group">
+            <label for="password">Name</label>
+            <input type="text" 
+            id="password" placeholder="Enter password" name="password">
+            <i class="fas fa-circle-check"></i>
+            <i class="fas fa-circle-exclamation"></i>
+            <p>Error message</p>
+        </div>
+    </form>
+   
+    <script src="./app.js"></script>
+</body>
+</html>
