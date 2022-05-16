@@ -38,7 +38,7 @@ if(passwordInput.value.trim()==''){
     //CONFIRM PASSWORD
 if(ConfirmpasswordInput.value.trim()==''){
     setError(ConfirmpasswordInput, 'password cannot be Empty');
-}else if(ConfirmpasswordInput.value !== passwordInput){
+}else if(ConfirmpasswordInput.value !== passwordInput.value){
     setError(ConfirmpasswordInput, 'password does not match');
 }else{
     setSuccess(ConfirmpasswordInput);
